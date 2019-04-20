@@ -56,7 +56,7 @@ const getFiveDaysForecastFailure = (error) => ({
 export const getFiveDaysForecastRequest = (cityId) => (dispatch) => {
   dispatch(getFiveDaysForecastAttempt())
   return api
-    .get(`forecast?id=${cityId}`)
+    .get(`forecast/daily?id=${cityId}&cnt=5`)
     .then(response => dispatch(getFiveDaysForecastSuccess(response)))
     .catch(error => dispatch(getFiveDaysForecastFailure(error)));
 }

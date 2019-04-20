@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { TABLE_COLOR } from '../../config/styleConstants.js';
+import { TABLE_COLOR } from '../../../config/styleConstants.js';
 
 export const Container = styled.div`
   width: 150px;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { GRADIENT_ONE, GRADIENT_TWO, CARD_TEXT } from '../../config/styleConstants.js';
+import { GRADIENT_ONE, GRADIENT_TWO, CARD_TEXT } from '../../../config/styleConstants.js';
 
 export const Container = styled.div`
   background: rgb(54,166,215);

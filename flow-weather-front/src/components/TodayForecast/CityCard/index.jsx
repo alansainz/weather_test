@@ -1,4 +1,5 @@
 import React from 'react';
+import { returnTempOrDoubleDash } from '../../../utils';
 
 import { 
   Container, 
@@ -9,23 +10,15 @@ import {
   MaxMinTemperature 
 } from './style.js'
 
-const returnTempOrDoubleDash = (temp) => {
-  if(temp) {
-    return temp + '°'
-  } else {
-    return '--'
-  }
-}
-
-const CityCard = ({ name, temperature, description, maxTemp, minTemp }) => (
+const CityCard = ({ city, temperature, description, maxTemp, minTemp }) => (
   <Container>
     <City>
-      { name && name.toUpperCase() }
+      { city && city.toUpperCase() }
     </City>
-
+    
     <DataContainer>
       <Temperature>
-        { returnTempOrDoubleDash(temperature) }
+        { returnTempOrDoubleDash(Math.floor(temperature)) }
       </Temperature>
       <Description>
         { description && description.toUpperCase() }

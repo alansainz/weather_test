@@ -13,9 +13,8 @@ const metersToKm = (meters) => meters / 1000;
 const DataTable = ({ windSpeed, humidity, pressure, visibility }) => (
   <Container>
     <DataContainer>
-
       <Header>Extra Info</Header>
-
+      
       <Title>Wind</Title>
       <Data>{windSpeed && `${windSpeed} km/h`} </Data>
       
@@ -27,7 +26,6 @@ const DataTable = ({ windSpeed, humidity, pressure, visibility }) => (
       
       <Title>Visibility</Title>
       <Data isLast={true}>{visibility && `${metersToKm(visibility)} km`}</Data>
-     
     </DataContainer>
   </Container>
 );
