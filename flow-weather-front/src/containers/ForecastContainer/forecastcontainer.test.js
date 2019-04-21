@@ -4,7 +4,7 @@ import { ForecastContainer } from './index.js'
 import { shallow } from 'enzyme';
 import { Provider } from "react-redux";
 
-describe("Dropdown Component", () => {
+describe("ForeCast Container", () => {
   let wrapper;
   const getTodayForecastRequest = jest.fn();
   const getFiveDaysForecastRequest = jest.fn();

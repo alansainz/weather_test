@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import TodayForecast from './index.jsx';
 import { shallow  } from 'enzyme';
 
-describe("Dropdown Component", () => {
+describe("TodayForecast Component", () => {
   it('should render with no props', () => {
     const component = shallow(<TodayForecast />);
     expect(component).toMatchSnapshot();

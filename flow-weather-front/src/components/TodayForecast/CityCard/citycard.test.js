@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import CityCard from './index.jsx';
 import { shallow  } from 'enzyme';
 
-describe("Dropdown Component", () => {
+describe("CityCard Component", () => {
   it('should render with no props', () => {
     const component = shallow(<CityCard />);
     expect(component).toMatchSnapshot();

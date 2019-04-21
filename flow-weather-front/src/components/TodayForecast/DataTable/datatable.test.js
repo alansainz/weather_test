@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import DataTable from './index.jsx';
 import { shallow  } from 'enzyme';
 
-describe("Dropdown Component", () => {
+describe("DataTable Component", () => {
   it('should render with no props', () => {
     const component = shallow(<DataTable />);
     expect(component).toMatchSnapshot();

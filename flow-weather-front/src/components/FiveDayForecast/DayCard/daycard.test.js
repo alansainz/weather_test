@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import DayCard from './index.jsx';
 import { shallow  } from 'enzyme';
 
-describe("Dropdown Component", () => {
+describe("Daycard Component", () => {
   it('should render with no props', () => {
     const component = shallow(<DayCard />);
     expect(component).toMatchSnapshot();

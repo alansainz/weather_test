@@ -5,7 +5,7 @@ import { shallow, mount  } from 'enzyme';
 
 import { fiveDayForecast } from '../../utils/tests/mockups.js';
 
-describe("Dropdown Component", () => {
+describe("FiveDayForecast Component", () => {
   it('should render with no props', () => {
     const component = shallow(<FiveDayForecast />);
     expect(component).toMatchSnapshot();
