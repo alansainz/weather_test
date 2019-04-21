@@ -18,11 +18,7 @@ describe("Dropdown Component", () => {
    );
   });
 
-  // it('should render with no props', () => {
-  //   expect(wrapper).toMatchSnapshot();
-  // });
-
-  fit('should call the switchCity function on componentDidMount', () => {
+  it('should call the switchCity function on componentDidMount', () => {
     const spy = jest.spyOn(Home.prototype, 'switchCity');
     wrapper.instance().switchCity();
     expect(spy).toHaveBeenCalled();
