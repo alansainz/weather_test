@@ -19,16 +19,19 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) =>
   bindActionCreators(forecastActions, dispatch)
 
-class ForecastContainer extends Component {
+export class ForecastContainer extends Component {
   componentDidMount() {
+    this.getData()
+  }
+  getData() {
     const defaultCity = cities[0].id; // Buenos Aires
     this.props.getTodayForecastRequest(defaultCity)
     this.props.getFiveDaysForecastRequest(defaultCity)
   }
   render() {
     const { todayForecast, fiveDayForecast, fetching } = this.props
-    const isTodayForecastLoaded = Object.entries(todayForecast).length;
-    const isFiveDayForecastLoaded = fiveDayForecast.length;
+    const isTodayForecastLoaded = todayForecast && Object.entries(todayForecast).length;
+    const isFiveDayForecastLoaded = fiveDayForecast && fiveDayForecast.length;
     if(fetching || !isTodayForecastLoaded || !isFiveDayForecastLoaded) return <div>Loading...</div>
     const todayData = {
       cityCard: {

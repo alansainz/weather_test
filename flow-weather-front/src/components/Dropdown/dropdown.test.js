@@ -5,8 +5,6 @@ import { shallow, mount } from 'enzyme';
 import cities from '../../config/cities'
 import { render, fireEvent, getByTestId} from "react-testing-library";
 
-const reactMock = require('react');
-
 describe("Dropdown Component", () => {
 
   it('should render with no props', () => {
