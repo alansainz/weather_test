@@ -42,4 +42,14 @@ describe("Dropdown Component", () => {
     fireEvent.change(inputName, { target: { value: newName } });
     expect(nameValue.value).toEqual(newName);
   });
+
+  it('should call the props.onChange function', () => {
+    const exampleData = {
+      options: cities,
+      onChange: jest.fn()
+    };
+    const component = mount(<Dropdown {...exampleData} />);
+    component.props().onChange();
+    expect(exampleData.onChange).toHaveBeenCalled();
+  });
 })

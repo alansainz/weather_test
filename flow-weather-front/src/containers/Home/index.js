@@ -13,7 +13,7 @@ import { DropdownContainer } from './style.js'
 const mapDispatchToProps = (dispatch) =>
   bindActionCreators(forecastActions, dispatch)
 
-class Home extends Component {
+export class Home extends Component {
   switchCity(cityId) {
     this.props.getTodayForecastRequest(cityId)
     this.props.getFiveDaysForecastRequest(cityId)
