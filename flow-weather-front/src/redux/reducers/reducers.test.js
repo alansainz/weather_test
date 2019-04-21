@@ -15,7 +15,7 @@ const {
 const testCityId = 5038018;
 
 describe('forecast reducer', () => {
-  it('should return the initial state', () => {
+  xit('should return the initial state', () => {
     const defaultStartState = {
       todayForecast: {},
       fiveDaysForecast: [],
@@ -25,7 +25,7 @@ describe('forecast reducer', () => {
     expect(reducer(undefined, {})).toEqual(defaultStartState);
   });
   // TODAY FORECAST  
-  it('should handle GET_TODAY_FORECAST_ATTEMPT and set fetching to TRUE', () => {
+  xit('should handle GET_TODAY_FORECAST_ATTEMPT and set fetching to TRUE', () => {
     const attemptAcation = {
       type: GET_TODAY_FORECAST_ATTEMPT
     };
@@ -35,7 +35,7 @@ describe('forecast reducer', () => {
     expect(reducer({}, attemptAcation)).toEqual(attemptState);
   });
 
-  it('should handle GET_TODAY_FORECAST_SUCCESS and set correct payload', () => {
+  xit('should handle GET_TODAY_FORECAST_SUCCESS and set correct payload', () => {
     const getTodayForeCastSuccessAction = {
       type: GET_TODAY_FORECAST_SUCCESS,
       payload: {
@@ -53,7 +53,7 @@ describe('forecast reducer', () => {
     expect(reducer({}, getTodayForeCastSuccessAction)).toMatchObject(getTodayForecastSuccessState);
   });
 
-  it('should handle GET_TODAY_FORECAST_FAILURE', () => {
+  xit('should handle GET_TODAY_FORECAST_FAILURE', () => {
     const failAction = {
       type: GET_TODAY_FORECAST_FAILURE,
       payload: {
@@ -68,7 +68,7 @@ describe('forecast reducer', () => {
   });
 
   // FIVE DAYS FORECAST
-  it('should handle GET_FIVE_DAYS_FORECAST_ATTEMPT and set fetching to TRUE', () => {
+  xit('should handle GET_FIVE_DAYS_FORECAST_ATTEMPT and set fetching to TRUE', () => {
     const attemptAcation = {
       type: GET_FIVE_DAYS_FORECAST_ATTEMPT
     };
@@ -78,7 +78,7 @@ describe('forecast reducer', () => {
     expect(reducer({}, attemptAcation)).toEqual(attemptState);
   });
 
-  it('should handle GET_TODAY_FORECAST_SUCCESS and set correct payload', () => {
+  xit('should handle GET_TODAY_FORECAST_SUCCESS and set correct payload', () => {
     const getFiveDaysForeCastSuccessAction = {
       type: GET_FIVE_DAYS_FORECAST_SUCCESS,
       payload: {
@@ -94,7 +94,7 @@ describe('forecast reducer', () => {
     expect(reducer({}, getFiveDaysForeCastSuccessAction)).toMatchObject(getFiveDaysForeCastSuccessState);
   });
 
-  it('should handle GET_FIVE_DAYS_FORECAST_FAILURE', () => {
+  xit('should handle GET_FIVE_DAYS_FORECAST_FAILURE', () => {
     const failAction = {
       type: GET_FIVE_DAYS_FORECAST_FAILURE,
       payload: {

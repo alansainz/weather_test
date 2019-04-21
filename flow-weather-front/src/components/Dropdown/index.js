@@ -11,10 +11,12 @@ const Select = ({ options, onChange }) => {
           onChange && onChange(e.target.value)
         }}
         value={value}
+        data-testid="select-value"
       >
         {
           options && options.map(option =>
             <option 
+              data-testid={`select-option-${option.name}`}
               key={option.id} 
               value={option.id}
             >

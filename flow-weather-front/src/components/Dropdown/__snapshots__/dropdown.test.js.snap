@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component should render with given props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Select
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "id": 3435910,
+          "name": "Buenos Aires",
+        },
+        Object {
+          "id": 1609350,
+          "name": "Bangkok",
+        },
+        Object {
+          "id": 2950159,
+          "name": "Berlin",
+        },
+        Object {
+          "id": 2643743,
+          "name": "London",
+        },
+        Object {
+          "id": 3833367,
+          "name": "Ushuaia",
+        },
+        Object {
+          "id": 5038018,
+          "name": "Montevideo",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef
+        onChange={[Function]}
+        value={0}
+      >
+        <option
+          value={3435910}
+        >
+          Buenos Aires
+        </option>
+        <option
+          value={1609350}
+        >
+          Bangkok
+        </option>
+        <option
+          value={2950159}
+        >
+          Berlin
+        </option>
+        <option
+          value={2643743}
+        >
+          London
+        </option>
+        <option
+          value={3833367}
+        >
+          Ushuaia
+        </option>
+        <option
+          value={5038018}
+        >
+          Montevideo
+        </option>
+      </ForwardRef>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <option
+            value={3435910}
+          >
+            Buenos Aires
+          </option>,
+          <option
+            value={1609350}
+          >
+            Bangkok
+          </option>,
+          <option
+            value={2950159}
+          >
+            Berlin
+          </option>,
+          <option
+            value={2643743}
+          >
+            London
+          </option>,
+          <option
+            value={3833367}
+          >
+            Ushuaia
+          </option>,
+          <option
+            value={5038018}
+          >
+            Montevideo
+          </option>,
+        ],
+        "onChange": [Function],
+        "value": 0,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "3435910",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Buenos Aires",
+            "value": 3435910,
+          },
+          "ref": null,
+          "rendered": "Buenos Aires",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "1609350",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Bangkok",
+            "value": 1609350,
+          },
+          "ref": null,
+          "rendered": "Bangkok",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "2950159",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Berlin",
+            "value": 2950159,
+          },
+          "ref": null,
+          "rendered": "Berlin",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "2643743",
+          "nodeType": "host",
+          "props": Object {
+            "children": "London",
+            "value": 2643743,
+          },
+          "ref": null,
+          "rendered": "London",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "3833367",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Ushuaia",
+            "value": 3833367,
+          },
+          "ref": null,
+          "rendered": "Ushuaia",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "5038018",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Montevideo",
+            "value": 5038018,
+          },
+          "ref": null,
+          "rendered": "Montevideo",
+          "type": "option",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: ",
+            "rgba(70,72,206,1)",
+            ";
+  color: ",
+            "white",
+            ";
+",
+          ],
+        },
+        "displayName": "styled.select",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "select",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value={3435910}
+          >
+            Buenos Aires
+          </option>
+          <option
+            value={1609350}
+          >
+            Bangkok
+          </option>
+          <option
+            value={2950159}
+          >
+            Berlin
+          </option>
+          <option
+            value={2643743}
+          >
+            London
+          </option>
+          <option
+            value={3833367}
+          >
+            Ushuaia
+          </option>
+          <option
+            value={5038018}
+          >
+            Montevideo
+          </option>
+        </ForwardRef>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <option
+              value={3435910}
+            >
+              Buenos Aires
+            </option>,
+            <option
+              value={1609350}
+            >
+              Bangkok
+            </option>,
+            <option
+              value={2950159}
+            >
+              Berlin
+            </option>,
+            <option
+              value={2643743}
+            >
+              London
+            </option>,
+            <option
+              value={3833367}
+            >
+              Ushuaia
+            </option>,
+            <option
+              value={5038018}
+            >
+              Montevideo
+            </option>,
+          ],
+          "onChange": [Function],
+          "value": 0,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "3435910",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Buenos Aires",
+              "value": 3435910,
+            },
+            "ref": null,
+            "rendered": "Buenos Aires",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "1609350",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Bangkok",
+              "value": 1609350,
+            },
+            "ref": null,
+            "rendered": "Bangkok",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "2950159",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Berlin",
+              "value": 2950159,
+            },
+            "ref": null,
+            "rendered": "Berlin",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "2643743",
+            "nodeType": "host",
+            "props": Object {
+              "children": "London",
+              "value": 2643743,
+            },
+            "ref": null,
+            "rendered": "London",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "3833367",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ushuaia",
+              "value": 3833367,
+            },
+            "ref": null,
+            "rendered": "Ushuaia",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "5038018",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Montevideo",
+              "value": 5038018,
+            },
+            "ref": null,
+            "rendered": "Montevideo",
+            "type": "option",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: ",
+              "rgba(70,72,206,1)",
+              ";
+  color: ",
+              "white",
+              ";
+",
+            ],
+          },
+          "displayName": "styled.select",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "select",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Dropdown Component should render with no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Select />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef
+        onChange={[Function]}
+        value={0}
+      />,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": undefined,
+        "onChange": [Function],
+        "value": 0,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: ",
+            "rgba(70,72,206,1)",
+            ";
+  color: ",
+            "white",
+            ";
+",
+          ],
+        },
+        "displayName": "styled.select",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "select",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef
+          onChange={[Function]}
+          value={0}
+        />,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": undefined,
+          "onChange": [Function],
+          "value": 0,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: ",
+              "rgba(70,72,206,1)",
+              ";
+  color: ",
+              "white",
+              ";
+",
+            ],
+          },
+          "displayName": "styled.select",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "select",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
