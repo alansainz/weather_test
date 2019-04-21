@@ -2,8 +2,6 @@ import React from 'react';
 import Row from './Row'
 import { 
   Container,
-  Title,
-  Data,
   DataContainer,
   Header
 } from './style.js'
