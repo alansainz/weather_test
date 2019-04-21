@@ -9,12 +9,12 @@ const reactMock = require('react');
 
 describe("Dropdown Component", () => {
 
-  xit('should render with no props', () => {
+  it('should render with no props', () => {
     const component = shallow(<Dropdown />);
     expect(component).toMatchSnapshot();
   });
 
-  xit('should render with given props', () => { 
+  it('should render with given props', () => { 
     const exampleData = {
       options: cities,
       onChange: (value) => console.log(value)
@@ -23,7 +23,7 @@ describe("Dropdown Component", () => {
     expect(component).toMatchSnapshot();
   });
 
-  xit('initial state should be 0', () => {
+  it('initial state should be 0', () => {
     const exampleData = {
       options: cities,
       onChange: (value) => console.log(value)

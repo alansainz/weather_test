@@ -49,35 +49,42 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": <ForwardRef
+        data-testid="select-value"
         onChange={[Function]}
         value={0}
       >
         <option
+          data-testid="select-option-Buenos Aires"
           value={3435910}
         >
           Buenos Aires
         </option>
         <option
+          data-testid="select-option-Bangkok"
           value={1609350}
         >
           Bangkok
         </option>
         <option
+          data-testid="select-option-Berlin"
           value={2950159}
         >
           Berlin
         </option>
         <option
+          data-testid="select-option-London"
           value={2643743}
         >
           London
         </option>
         <option
+          data-testid="select-option-Ushuaia"
           value={3833367}
         >
           Ushuaia
         </option>
         <option
+          data-testid="select-option-Montevideo"
           value={5038018}
         >
           Montevideo
@@ -92,36 +99,43 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <option
+            data-testid="select-option-Buenos Aires"
             value={3435910}
           >
             Buenos Aires
           </option>,
           <option
+            data-testid="select-option-Bangkok"
             value={1609350}
           >
             Bangkok
           </option>,
           <option
+            data-testid="select-option-Berlin"
             value={2950159}
           >
             Berlin
           </option>,
           <option
+            data-testid="select-option-London"
             value={2643743}
           >
             London
           </option>,
           <option
+            data-testid="select-option-Ushuaia"
             value={3833367}
           >
             Ushuaia
           </option>,
           <option
+            data-testid="select-option-Montevideo"
             value={5038018}
           >
             Montevideo
           </option>,
         ],
+        "data-testid": "select-value",
         "onChange": [Function],
         "value": 0,
       },
@@ -133,6 +147,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Buenos Aires",
+            "data-testid": "select-option-Buenos Aires",
             "value": 3435910,
           },
           "ref": null,
@@ -145,6 +160,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Bangkok",
+            "data-testid": "select-option-Bangkok",
             "value": 1609350,
           },
           "ref": null,
@@ -157,6 +173,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Berlin",
+            "data-testid": "select-option-Berlin",
             "value": 2950159,
           },
           "ref": null,
@@ -169,6 +186,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "London",
+            "data-testid": "select-option-London",
             "value": 2643743,
           },
           "ref": null,
@@ -181,6 +199,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Ushuaia",
+            "data-testid": "select-option-Ushuaia",
             "value": 3833367,
           },
           "ref": null,
@@ -193,6 +212,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Montevideo",
+            "data-testid": "select-option-Montevideo",
             "value": 5038018,
           },
           "ref": null,
@@ -239,35 +259,42 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <ForwardRef
+          data-testid="select-value"
           onChange={[Function]}
           value={0}
         >
           <option
+            data-testid="select-option-Buenos Aires"
             value={3435910}
           >
             Buenos Aires
           </option>
           <option
+            data-testid="select-option-Bangkok"
             value={1609350}
           >
             Bangkok
           </option>
           <option
+            data-testid="select-option-Berlin"
             value={2950159}
           >
             Berlin
           </option>
           <option
+            data-testid="select-option-London"
             value={2643743}
           >
             London
           </option>
           <option
+            data-testid="select-option-Ushuaia"
             value={3833367}
           >
             Ushuaia
           </option>
           <option
+            data-testid="select-option-Montevideo"
             value={5038018}
           >
             Montevideo
@@ -282,36 +309,43 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <option
+              data-testid="select-option-Buenos Aires"
               value={3435910}
             >
               Buenos Aires
             </option>,
             <option
+              data-testid="select-option-Bangkok"
               value={1609350}
             >
               Bangkok
             </option>,
             <option
+              data-testid="select-option-Berlin"
               value={2950159}
             >
               Berlin
             </option>,
             <option
+              data-testid="select-option-London"
               value={2643743}
             >
               London
             </option>,
             <option
+              data-testid="select-option-Ushuaia"
               value={3833367}
             >
               Ushuaia
             </option>,
             <option
+              data-testid="select-option-Montevideo"
               value={5038018}
             >
               Montevideo
             </option>,
           ],
+          "data-testid": "select-value",
           "onChange": [Function],
           "value": 0,
         },
@@ -323,6 +357,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Buenos Aires",
+              "data-testid": "select-option-Buenos Aires",
               "value": 3435910,
             },
             "ref": null,
@@ -335,6 +370,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Bangkok",
+              "data-testid": "select-option-Bangkok",
               "value": 1609350,
             },
             "ref": null,
@@ -347,6 +383,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Berlin",
+              "data-testid": "select-option-Berlin",
               "value": 2950159,
             },
             "ref": null,
@@ -359,6 +396,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "London",
+              "data-testid": "select-option-London",
               "value": 2643743,
             },
             "ref": null,
@@ -371,6 +409,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Ushuaia",
+              "data-testid": "select-option-Ushuaia",
               "value": 3833367,
             },
             "ref": null,
@@ -383,6 +422,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Montevideo",
+              "data-testid": "select-option-Montevideo",
               "value": 5038018,
             },
             "ref": null,
@@ -469,6 +509,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": <ForwardRef
+        data-testid="select-value"
         onChange={[Function]}
         value={0}
       />,
@@ -480,6 +521,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": undefined,
+        "data-testid": "select-value",
         "onChange": [Function],
         "value": 0,
       },
@@ -524,6 +566,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <ForwardRef
+          data-testid="select-value"
           onChange={[Function]}
           value={0}
         />,
@@ -535,6 +578,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": undefined,
+          "data-testid": "select-value",
           "onChange": [Function],
           "value": 0,
         },

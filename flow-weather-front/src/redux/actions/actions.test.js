@@ -13,7 +13,7 @@ const {
 } = types
 
 describe("get today's forecast OK", () => {
-  xit("handles getting today's forecast and fetches all necessary data", async () => {
+  it("handles getting today's forecast and fetches all necessary data", async () => {
     const store = mockStore();
     const testCityId = 5038018;
     store.dispatch(getTodayForecastRequest(testCityId));
@@ -34,7 +34,7 @@ describe("get today's forecast OK", () => {
 });
 
 describe("get today's forecast WRONG", () => {
-  xit("handles getting an error during the today's forecast request", async () => {
+  it("handles getting an error during the today's forecast request", async () => {
     const store = mockStore();
     const wrongCityId = 1234;
     const resultAttempt = {
@@ -53,7 +53,7 @@ describe("get today's forecast WRONG", () => {
 });
 
 describe("get five days forecast OK", () => {
-  xit("handles getting five days forecast and fetches all necessary data", async () => {
+  it("handles getting five days forecast and fetches all necessary data", async () => {
     const store = mockStore();
     const testCityId = 5038018;
     store.dispatch(getFiveDaysForecastRequest(testCityId));
@@ -76,7 +76,7 @@ describe("get five days forecast OK", () => {
 });
 
 describe("get five days forecast WRONG", () => {
-  xit("handles getting an error during the five days request", async () => {
+  it("handles getting an error during the five days request", async () => {
     const store = mockStore();
     const wrongCityId = 1234;
     const resultAttempt = {
