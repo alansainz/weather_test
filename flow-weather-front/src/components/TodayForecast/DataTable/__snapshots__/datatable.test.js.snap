@@ -27,35 +27,26 @@ ShallowWrapper {
         <ForwardRef>
           Extra Info
         </ForwardRef>
-        <ForwardRef>
-          Wind
-        </ForwardRef>
-        <ForwardRef>
-          23 km/h
-           
-        </ForwardRef>
-        <ForwardRef>
-          Humidity
-        </ForwardRef>
-        <ForwardRef>
-          1100 %
-           
-        </ForwardRef>
-        <ForwardRef>
-          Pressure
-        </ForwardRef>
-        <ForwardRef>
-          23 mb
-           
-        </ForwardRef>
-        <ForwardRef>
-          Visibility
-        </ForwardRef>
-        <ForwardRef
-          isLast={true}
-        >
-          2 km
-        </ForwardRef>
+        <Row
+          symbol="km/h"
+          title="Wind"
+          value={23}
+        />
+        <Row
+          symbol="%"
+          title="Humidity"
+          value={1100}
+        />
+        <Row
+          symbol="mb"
+          title="Pressure"
+          value={23}
+        />
+        <Row
+          symbol="km"
+          title="Visibility"
+          value={2}
+        />
       </ForwardRef>,
     },
     "ref": null,
@@ -68,35 +59,28 @@ ShallowWrapper {
           <ForwardRef>
             Extra Info
           </ForwardRef>,
-          <ForwardRef>
-            Wind
-          </ForwardRef>,
-          <ForwardRef>
-            23 km/h
-             
-          </ForwardRef>,
-          <ForwardRef>
-            Humidity
-          </ForwardRef>,
-          <ForwardRef>
-            1100 %
-             
-          </ForwardRef>,
-          <ForwardRef>
-            Pressure
-          </ForwardRef>,
-          <ForwardRef>
-            23 mb
-             
-          </ForwardRef>,
-          <ForwardRef>
-            Visibility
-          </ForwardRef>,
-          <ForwardRef
-            isLast={true}
-          >
-            2 km
-          </ForwardRef>,
+          Array [
+            <Row
+              symbol="km/h"
+              title="Wind"
+              value={23}
+            />,
+            <Row
+              symbol="%"
+              title="Humidity"
+              value={1100}
+            />,
+            <Row
+              symbol="mb"
+              title="Pressure"
+              value={23}
+            />,
+            <Row
+              symbol="km"
+              title="Visibility"
+              value={2}
+            />,
+          ],
         ],
       },
       "ref": null,
@@ -114,7 +98,7 @@ ShallowWrapper {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-htpNat",
+              "componentId": "sc-ifAKCX",
               "isStatic": true,
               "rules": Array [
                 "
@@ -127,7 +111,7 @@ ShallowWrapper {
             "displayName": "styled.div",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-htpNat",
+            "styledComponentId": "sc-ifAKCX",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -136,313 +120,62 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "0",
           "nodeType": "function",
           "props": Object {
-            "children": "Wind",
+            "symbol": "km/h",
+            "title": "Wind",
+            "value": 23,
           },
           "ref": null,
-          "rendered": "Wind",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "1",
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              "23 km/h",
-              " ",
-            ],
+            "symbol": "%",
+            "title": "Humidity",
+            "value": 1100,
           },
           "ref": null,
-          "rendered": Array [
-            "23 km/h",
-            " ",
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "2",
           "nodeType": "function",
           "props": Object {
-            "children": "Humidity",
+            "symbol": "mb",
+            "title": "Pressure",
+            "value": 23,
           },
           "ref": null,
-          "rendered": "Humidity",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "3",
           "nodeType": "function",
           "props": Object {
-            "children": Array [
-              "1100 %",
-              " ",
-            ],
+            "symbol": "km",
+            "title": "Visibility",
+            "value": 2,
           },
           "ref": null,
-          "rendered": Array [
-            "1100 %",
-            " ",
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Pressure",
-          },
-          "ref": null,
-          "rendered": "Pressure",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              "23 mb",
-              " ",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "23 mb",
-            " ",
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Visibility",
-          },
-          "ref": null,
-          "rendered": "Visibility",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "2 km",
-            "isLast": true,
-          },
-          "ref": null,
-          "rendered": "2 km",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "sc-ifAKCX",
+          "componentId": "sc-bZQynM",
           "isStatic": true,
           "rules": Array [
             "
@@ -453,7 +186,7 @@ ShallowWrapper {
         "displayName": "styled.div",
         "foldedComponentIds": Array [],
         "render": [Function],
-        "styledComponentId": "sc-ifAKCX",
+        "styledComponentId": "sc-bZQynM",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -464,7 +197,7 @@ ShallowWrapper {
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "sc-htpNat",
         "isStatic": true,
         "rules": Array [
           "
@@ -476,7 +209,7 @@ ShallowWrapper {
       "displayName": "styled.div",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "sc-htpNat",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -493,35 +226,26 @@ ShallowWrapper {
           <ForwardRef>
             Extra Info
           </ForwardRef>
-          <ForwardRef>
-            Wind
-          </ForwardRef>
-          <ForwardRef>
-            23 km/h
-             
-          </ForwardRef>
-          <ForwardRef>
-            Humidity
-          </ForwardRef>
-          <ForwardRef>
-            1100 %
-             
-          </ForwardRef>
-          <ForwardRef>
-            Pressure
-          </ForwardRef>
-          <ForwardRef>
-            23 mb
-             
-          </ForwardRef>
-          <ForwardRef>
-            Visibility
-          </ForwardRef>
-          <ForwardRef
-            isLast={true}
-          >
-            2 km
-          </ForwardRef>
+          <Row
+            symbol="km/h"
+            title="Wind"
+            value={23}
+          />
+          <Row
+            symbol="%"
+            title="Humidity"
+            value={1100}
+          />
+          <Row
+            symbol="mb"
+            title="Pressure"
+            value={23}
+          />
+          <Row
+            symbol="km"
+            title="Visibility"
+            value={2}
+          />
         </ForwardRef>,
       },
       "ref": null,
@@ -534,35 +258,28 @@ ShallowWrapper {
             <ForwardRef>
               Extra Info
             </ForwardRef>,
-            <ForwardRef>
-              Wind
-            </ForwardRef>,
-            <ForwardRef>
-              23 km/h
-               
-            </ForwardRef>,
-            <ForwardRef>
-              Humidity
-            </ForwardRef>,
-            <ForwardRef>
-              1100 %
-               
-            </ForwardRef>,
-            <ForwardRef>
-              Pressure
-            </ForwardRef>,
-            <ForwardRef>
-              23 mb
-               
-            </ForwardRef>,
-            <ForwardRef>
-              Visibility
-            </ForwardRef>,
-            <ForwardRef
-              isLast={true}
-            >
-              2 km
-            </ForwardRef>,
+            Array [
+              <Row
+                symbol="km/h"
+                title="Wind"
+                value={23}
+              />,
+              <Row
+                symbol="%"
+                title="Humidity"
+                value={1100}
+              />,
+              <Row
+                symbol="mb"
+                title="Pressure"
+                value={23}
+              />,
+              <Row
+                symbol="km"
+                title="Visibility"
+                value={2}
+              />,
+            ],
           ],
         },
         "ref": null,
@@ -580,7 +297,7 @@ ShallowWrapper {
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-htpNat",
+                "componentId": "sc-ifAKCX",
                 "isStatic": true,
                 "rules": Array [
                   "
@@ -593,7 +310,7 @@ ShallowWrapper {
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-htpNat",
+              "styledComponentId": "sc-ifAKCX",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -602,313 +319,62 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "0",
             "nodeType": "function",
             "props": Object {
-              "children": "Wind",
+              "symbol": "km/h",
+              "title": "Wind",
+              "value": 23,
             },
             "ref": null,
-            "rendered": "Wind",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "1",
             "nodeType": "function",
             "props": Object {
-              "children": Array [
-                "23 km/h",
-                " ",
-              ],
+              "symbol": "%",
+              "title": "Humidity",
+              "value": 1100,
             },
             "ref": null,
-            "rendered": Array [
-              "23 km/h",
-              " ",
-            ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "2",
             "nodeType": "function",
             "props": Object {
-              "children": "Humidity",
+              "symbol": "mb",
+              "title": "Pressure",
+              "value": 23,
             },
             "ref": null,
-            "rendered": "Humidity",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "3",
             "nodeType": "function",
             "props": Object {
-              "children": Array [
-                "1100 %",
-                " ",
-              ],
+              "symbol": "km",
+              "title": "Visibility",
+              "value": 2,
             },
             "ref": null,
-            "rendered": Array [
-              "1100 %",
-              " ",
-            ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Pressure",
-            },
-            "ref": null,
-            "rendered": "Pressure",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": Array [
-                "23 mb",
-                " ",
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "23 mb",
-              " ",
-            ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Visibility",
-            },
-            "ref": null,
-            "rendered": "Visibility",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "2 km",
-              "isLast": true,
-            },
-            "ref": null,
-            "rendered": "2 km",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
+            "rendered": null,
+            "type": [Function],
           },
         ],
         "type": Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-ifAKCX",
+            "componentId": "sc-bZQynM",
             "isStatic": true,
             "rules": Array [
               "
@@ -919,7 +385,7 @@ ShallowWrapper {
           "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-ifAKCX",
+          "styledComponentId": "sc-bZQynM",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -930,7 +396,7 @@ ShallowWrapper {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "sc-htpNat",
           "isStatic": true,
           "rules": Array [
             "
@@ -942,7 +408,7 @@ ShallowWrapper {
         "displayName": "styled.div",
         "foldedComponentIds": Array [],
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "sc-htpNat",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -999,29 +465,21 @@ ShallowWrapper {
         <ForwardRef>
           Extra Info
         </ForwardRef>
-        <ForwardRef>
-          Wind
-        </ForwardRef>
-        <ForwardRef>
-           
-        </ForwardRef>
-        <ForwardRef>
-          Humidity
-        </ForwardRef>
-        <ForwardRef>
-           
-        </ForwardRef>
-        <ForwardRef>
-          Pressure
-        </ForwardRef>
-        <ForwardRef>
-           
-        </ForwardRef>
-        <ForwardRef>
-          Visibility
-        </ForwardRef>
-        <ForwardRef
-          isLast={true}
+        <Row
+          symbol="km/h"
+          title="Wind"
+        />
+        <Row
+          symbol="%"
+          title="Humidity"
+        />
+        <Row
+          symbol="mb"
+          title="Pressure"
+        />
+        <Row
+          symbol="km"
+          title="Visibility"
         />
       </ForwardRef>,
     },
@@ -1035,30 +493,24 @@ ShallowWrapper {
           <ForwardRef>
             Extra Info
           </ForwardRef>,
-          <ForwardRef>
-            Wind
-          </ForwardRef>,
-          <ForwardRef>
-             
-          </ForwardRef>,
-          <ForwardRef>
-            Humidity
-          </ForwardRef>,
-          <ForwardRef>
-             
-          </ForwardRef>,
-          <ForwardRef>
-            Pressure
-          </ForwardRef>,
-          <ForwardRef>
-             
-          </ForwardRef>,
-          <ForwardRef>
-            Visibility
-          </ForwardRef>,
-          <ForwardRef
-            isLast={true}
-          />,
+          Array [
+            <Row
+              symbol="km/h"
+              title="Wind"
+            />,
+            <Row
+              symbol="%"
+              title="Humidity"
+            />,
+            <Row
+              symbol="mb"
+              title="Pressure"
+            />,
+            <Row
+              symbol="km"
+              title="Visibility"
+            />,
+          ],
         ],
       },
       "ref": null,
@@ -1076,7 +528,7 @@ ShallowWrapper {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-htpNat",
+              "componentId": "sc-ifAKCX",
               "isStatic": true,
               "rules": Array [
                 "
@@ -1089,7 +541,7 @@ ShallowWrapper {
             "displayName": "styled.div",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-htpNat",
+            "styledComponentId": "sc-ifAKCX",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1098,313 +550,62 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "0",
           "nodeType": "function",
           "props": Object {
-            "children": "Wind",
-          },
-          "ref": null,
-          "rendered": "Wind",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              undefined,
-              " ",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            undefined,
-            " ",
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Humidity",
-          },
-          "ref": null,
-          "rendered": "Humidity",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              undefined,
-              " ",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            undefined,
-            " ",
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Pressure",
-          },
-          "ref": null,
-          "rendered": "Pressure",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              undefined,
-              " ",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            undefined,
-            " ",
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Visibility",
-          },
-          "ref": null,
-          "rendered": "Visibility",
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
-              "isStatic": true,
-              "rules": Array [
-                "
-  font-weight: bold;
-  font-size: 16px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": undefined,
-            "isLast": true,
+            "symbol": "km/h",
+            "title": "Wind",
+            "value": undefined,
           },
           "ref": null,
           "rendered": null,
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "rules": Array [
-                "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                "black",
-                "
-  border-bottom: ",
-                [Function],
-                ";
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "symbol": "%",
+            "title": "Humidity",
+            "value": undefined,
           },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "symbol": "mb",
+            "title": "Pressure",
+            "value": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "symbol": "km",
+            "title": "Visibility",
+            "value": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "sc-ifAKCX",
+          "componentId": "sc-bZQynM",
           "isStatic": true,
           "rules": Array [
             "
@@ -1415,7 +616,7 @@ ShallowWrapper {
         "displayName": "styled.div",
         "foldedComponentIds": Array [],
         "render": [Function],
-        "styledComponentId": "sc-ifAKCX",
+        "styledComponentId": "sc-bZQynM",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -1426,7 +627,7 @@ ShallowWrapper {
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "sc-htpNat",
         "isStatic": true,
         "rules": Array [
           "
@@ -1438,7 +639,7 @@ ShallowWrapper {
       "displayName": "styled.div",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "sc-htpNat",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -1455,29 +656,21 @@ ShallowWrapper {
           <ForwardRef>
             Extra Info
           </ForwardRef>
-          <ForwardRef>
-            Wind
-          </ForwardRef>
-          <ForwardRef>
-             
-          </ForwardRef>
-          <ForwardRef>
-            Humidity
-          </ForwardRef>
-          <ForwardRef>
-             
-          </ForwardRef>
-          <ForwardRef>
-            Pressure
-          </ForwardRef>
-          <ForwardRef>
-             
-          </ForwardRef>
-          <ForwardRef>
-            Visibility
-          </ForwardRef>
-          <ForwardRef
-            isLast={true}
+          <Row
+            symbol="km/h"
+            title="Wind"
+          />
+          <Row
+            symbol="%"
+            title="Humidity"
+          />
+          <Row
+            symbol="mb"
+            title="Pressure"
+          />
+          <Row
+            symbol="km"
+            title="Visibility"
           />
         </ForwardRef>,
       },
@@ -1491,30 +684,24 @@ ShallowWrapper {
             <ForwardRef>
               Extra Info
             </ForwardRef>,
-            <ForwardRef>
-              Wind
-            </ForwardRef>,
-            <ForwardRef>
-               
-            </ForwardRef>,
-            <ForwardRef>
-              Humidity
-            </ForwardRef>,
-            <ForwardRef>
-               
-            </ForwardRef>,
-            <ForwardRef>
-              Pressure
-            </ForwardRef>,
-            <ForwardRef>
-               
-            </ForwardRef>,
-            <ForwardRef>
-              Visibility
-            </ForwardRef>,
-            <ForwardRef
-              isLast={true}
-            />,
+            Array [
+              <Row
+                symbol="km/h"
+                title="Wind"
+              />,
+              <Row
+                symbol="%"
+                title="Humidity"
+              />,
+              <Row
+                symbol="mb"
+                title="Pressure"
+              />,
+              <Row
+                symbol="km"
+                title="Visibility"
+              />,
+            ],
           ],
         },
         "ref": null,
@@ -1532,7 +719,7 @@ ShallowWrapper {
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-htpNat",
+                "componentId": "sc-ifAKCX",
                 "isStatic": true,
                 "rules": Array [
                   "
@@ -1545,7 +732,7 @@ ShallowWrapper {
               "displayName": "styled.div",
               "foldedComponentIds": Array [],
               "render": [Function],
-              "styledComponentId": "sc-htpNat",
+              "styledComponentId": "sc-ifAKCX",
               "target": "div",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -1554,313 +741,62 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "0",
             "nodeType": "function",
             "props": Object {
-              "children": "Wind",
-            },
-            "ref": null,
-            "rendered": "Wind",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": Array [
-                undefined,
-                " ",
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              undefined,
-              " ",
-            ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Humidity",
-            },
-            "ref": null,
-            "rendered": "Humidity",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": Array [
-                undefined,
-                " ",
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              undefined,
-              " ",
-            ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Pressure",
-            },
-            "ref": null,
-            "rendered": "Pressure",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": Array [
-                undefined,
-                " ",
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              undefined,
-              " ",
-            ],
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Visibility",
-            },
-            "ref": null,
-            "rendered": "Visibility",
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
-                "isStatic": true,
-                "rules": Array [
-                  "
-  font-weight: bold;
-  font-size: 16px;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            },
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": undefined,
-              "isLast": true,
+              "symbol": "km/h",
+              "title": "Wind",
+              "value": undefined,
             },
             "ref": null,
             "rendered": null,
-            "type": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bxivhb",
-                "isStatic": false,
-                "rules": Array [
-                  "
-  font-size: 16px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  color: ",
-                  "black",
-                  "
-  border-bottom: ",
-                  [Function],
-                  ";
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bxivhb",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "symbol": "%",
+              "title": "Humidity",
+              "value": undefined,
             },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "symbol": "mb",
+              "title": "Pressure",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "symbol": "km",
+              "title": "Visibility",
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
         ],
         "type": Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-ifAKCX",
+            "componentId": "sc-bZQynM",
             "isStatic": true,
             "rules": Array [
               "
@@ -1871,7 +807,7 @@ ShallowWrapper {
           "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-ifAKCX",
+          "styledComponentId": "sc-bZQynM",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -1882,7 +818,7 @@ ShallowWrapper {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "sc-htpNat",
           "isStatic": true,
           "rules": Array [
             "
@@ -1894,7 +830,7 @@ ShallowWrapper {
         "displayName": "styled.div",
         "foldedComponentIds": Array [],
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "sc-htpNat",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],

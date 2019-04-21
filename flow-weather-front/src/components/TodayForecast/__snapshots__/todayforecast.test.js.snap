@@ -88,7 +88,7 @@ ShallowWrapper {
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-gZMcBi",
+        "componentId": "sc-VigVT",
         "isStatic": true,
         "rules": Array [
           "
@@ -100,7 +100,7 @@ ShallowWrapper {
       "displayName": "styled.div",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "sc-gZMcBi",
+      "styledComponentId": "sc-VigVT",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -165,7 +165,7 @@ ShallowWrapper {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "sc-gZMcBi",
+          "componentId": "sc-VigVT",
           "isStatic": true,
           "rules": Array [
             "
@@ -177,7 +177,7 @@ ShallowWrapper {
         "displayName": "styled.div",
         "foldedComponentIds": Array [],
         "render": [Function],
-        "styledComponentId": "sc-gZMcBi",
+        "styledComponentId": "sc-VigVT",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -260,7 +260,7 @@ ShallowWrapper {
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-gZMcBi",
+        "componentId": "sc-VigVT",
         "isStatic": true,
         "rules": Array [
           "
@@ -272,7 +272,7 @@ ShallowWrapper {
       "displayName": "styled.div",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "sc-gZMcBi",
+      "styledComponentId": "sc-VigVT",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -315,7 +315,7 @@ ShallowWrapper {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "sc-gZMcBi",
+          "componentId": "sc-VigVT",
           "isStatic": true,
           "rules": Array [
             "
@@ -327,7 +327,7 @@ ShallowWrapper {
         "displayName": "styled.div",
         "foldedComponentIds": Array [],
         "render": [Function],
-        "styledComponentId": "sc-gZMcBi",
+        "styledComponentId": "sc-VigVT",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
