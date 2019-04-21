@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component should render with given props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FiveDayForecast
+    fiveDayForecast={
+      Array [
+        Object {
+          "clouds": 100,
+          "deg": 159,
+          "dt": 1555783200,
+          "humidity": 55,
+          "pressure": 1002.612,
+          "rain": 3.5,
+          "speed": 3.43,
+          "temp": Object {
+            "day": 15.82,
+            "eve": 15.82,
+            "max": 15.82,
+            "min": 13.47,
+            "morn": 15.82,
+            "night": 13.47,
+          },
+          "weather": Array [
+            Object {
+              "description": "moderate rain",
+              "icon": "10d",
+              "id": 501,
+              "main": "Rain",
+            },
+          ],
+        },
+        Object {
+          "clouds": 100,
+          "deg": 58,
+          "dt": 1555869600,
+          "humidity": 77,
+          "pressure": 1007.148,
+          "rain": 6.38,
+          "speed": 5.44,
+          "temp": Object {
+            "day": 17.51,
+            "eve": 13.92,
+            "max": 17.51,
+            "min": 8.62,
+            "morn": 11.96,
+            "night": 8.62,
+          },
+          "weather": Array [
+            Object {
+              "description": "moderate rain",
+              "icon": "10d",
+              "id": 501,
+              "main": "Rain",
+            },
+          ],
+        },
+        Object {
+          "clouds": 100,
+          "deg": 7,
+          "dt": 1555956000,
+          "humidity": 84,
+          "pressure": 1018.208,
+          "rain": 8.44,
+          "speed": 6.95,
+          "temp": Object {
+            "day": 8.8,
+            "eve": 11.16,
+            "max": 11.18,
+            "min": 6.65,
+            "morn": 8.13,
+            "night": 6.65,
+          },
+          "weather": Array [
+            Object {
+              "description": "moderate rain",
+              "icon": "10d",
+              "id": 501,
+              "main": "Rain",
+            },
+          ],
+        },
+        Object {
+          "clouds": 0,
+          "deg": 97,
+          "dt": 1556042400,
+          "humidity": 47,
+          "pressure": 1021.932,
+          "speed": 0.61,
+          "temp": Object {
+            "day": 15.25,
+            "eve": 16.16,
+            "max": 17.08,
+            "min": 4.95,
+            "morn": 4.95,
+            "night": 10.11,
+          },
+          "weather": Array [
+            Object {
+              "description": "sky is clear",
+              "icon": "01d",
+              "id": 800,
+              "main": "Clear",
+            },
+          ],
+        },
+        Object {
+          "clouds": 23,
+          "deg": 204,
+          "dt": 1556128800,
+          "humidity": 38,
+          "pressure": 1014.476,
+          "rain": 0.44,
+          "speed": 4.65,
+          "temp": Object {
+            "day": 19.35,
+            "eve": 20.02,
+            "max": 21.45,
+            "min": 7.85,
+            "morn": 7.85,
+            "night": 14.19,
+          },
+          "weather": Array [
+            Object {
+              "description": "light rain",
+              "icon": "10d",
+              "id": 500,
+              "main": "Rain",
+            },
+          ],
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <DayCard
+          day={1555783200}
+          description="moderate rain"
+          id={0}
+          temperature={15.82}
+        />,
+        <DayCard
+          day={1555869600}
+          description="moderate rain"
+          id={1}
+          temperature={17.51}
+        />,
+        <DayCard
+          day={1555956000}
+          description="moderate rain"
+          id={2}
+          temperature={11.18}
+        />,
+        <DayCard
+          day={1556042400}
+          description="sky is clear"
+          id={3}
+          temperature={17.08}
+        />,
+        <DayCard
+          day={1556128800}
+          description="light rain"
+          id={4}
+          temperature={21.45}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "day": 1555783200,
+          "description": "moderate rain",
+          "id": 0,
+          "temperature": 15.82,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "day": 1555869600,
+          "description": "moderate rain",
+          "id": 1,
+          "temperature": 17.51,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "day": 1555956000,
+          "description": "moderate rain",
+          "id": 2,
+          "temperature": 11.18,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "day": 1556042400,
+          "description": "sky is clear",
+          "id": 3,
+          "temperature": 17.08,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "function",
+        "props": Object {
+          "day": 1556128800,
+          "description": "light rain",
+          "id": 4,
+          "temperature": 21.45,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-ifAKCX",
+        "isStatic": true,
+        "rules": Array [
+          "
+  display: flex;
+  flex-direction: row;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-ifAKCX",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <DayCard
+            day={1555783200}
+            description="moderate rain"
+            id={0}
+            temperature={15.82}
+          />,
+          <DayCard
+            day={1555869600}
+            description="moderate rain"
+            id={1}
+            temperature={17.51}
+          />,
+          <DayCard
+            day={1555956000}
+            description="moderate rain"
+            id={2}
+            temperature={11.18}
+          />,
+          <DayCard
+            day={1556042400}
+            description="sky is clear"
+            id={3}
+            temperature={17.08}
+          />,
+          <DayCard
+            day={1556128800}
+            description="light rain"
+            id={4}
+            temperature={21.45}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "day": 1555783200,
+            "description": "moderate rain",
+            "id": 0,
+            "temperature": 15.82,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "day": 1555869600,
+            "description": "moderate rain",
+            "id": 1,
+            "temperature": 17.51,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "day": 1555956000,
+            "description": "moderate rain",
+            "id": 2,
+            "temperature": 11.18,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "day": 1556042400,
+            "description": "sky is clear",
+            "id": 3,
+            "temperature": 17.08,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "function",
+          "props": Object {
+            "day": 1556128800,
+            "description": "light rain",
+            "id": 4,
+            "temperature": 21.45,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-ifAKCX",
+          "isStatic": true,
+          "rules": Array [
+            "
+  display: flex;
+  flex-direction: row;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-ifAKCX",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Dropdown Component should render with no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FiveDayForecast />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": undefined,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-ifAKCX",
+        "isStatic": true,
+        "rules": Array [
+          "
+  display: flex;
+  flex-direction: row;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-ifAKCX",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": undefined,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-ifAKCX",
+          "isStatic": true,
+          "rules": Array [
+            "
+  display: flex;
+  flex-direction: row;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-ifAKCX",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

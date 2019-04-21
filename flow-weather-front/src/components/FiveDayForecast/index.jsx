@@ -6,7 +6,7 @@ import { Container } from './style.js'
 const FiveDayForecast = ({ fiveDayForecast }) => (
   <Container>
     {
-     fiveDayForecast.map((dayForecast, index) => 
+     fiveDayForecast && fiveDayForecast.map((dayForecast, index) => 
        <DayCard
          key={index} 
          id={index}
