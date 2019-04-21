@@ -17,14 +17,19 @@ describe("get today's forecast OK", () => {
     const store = mockStore();
     const testCityId = 5038018;
     store.dispatch(getTodayForecastRequest(testCityId));
-    expect(await getAction(store, GET_TODAY_FORECAST_ATTEMPT)).toEqual({type: GET_TODAY_FORECAST_ATTEMPT});
-    expect(await getAction(store, GET_TODAY_FORECAST_SUCCESS)).toMatchObject({type: GET_TODAY_FORECAST_SUCCESS,
+    const resultAttempt = {
+      type: GET_TODAY_FORECAST_ATTEMPT
+    };
+    const resultSuccess = {
+      type: GET_TODAY_FORECAST_SUCCESS,
       payload: {
         response: {
           id: testCityId
         }
       }
-    });
+    };
+    expect(await getAction(store, GET_TODAY_FORECAST_ATTEMPT)).toEqual(resultAttempt);
+    expect(await getAction(store, GET_TODAY_FORECAST_SUCCESS)).toMatchObject(resultSuccess);
   });
 });
 
@@ -32,13 +37,18 @@ describe("get today's forecast WRONG", () => {
   it("handles getting an error during the today's forecast request", async () => {
     const store = mockStore();
     const wrongCityId = 1234;
-    store.dispatch(getTodayForecastRequest(wrongCityId));
-    expect(await getAction(store, GET_TODAY_FORECAST_ATTEMPT)).toEqual({type: GET_TODAY_FORECAST_ATTEMPT});
-    expect(await getAction(store, GET_TODAY_FORECAST_FAILURE)).toMatchObject({type: GET_TODAY_FORECAST_FAILURE,
+    const resultAttempt = {
+      type: GET_TODAY_FORECAST_ATTEMPT
+    };
+    const resultFailure = {
+      type: GET_TODAY_FORECAST_FAILURE,
       payload: {
         error: {}
       }
-    });
+    };
+    store.dispatch(getTodayForecastRequest(wrongCityId));
+    expect(await getAction(store, GET_TODAY_FORECAST_ATTEMPT)).toEqual(resultAttempt);
+    expect(await getAction(store, GET_TODAY_FORECAST_FAILURE)).toMatchObject(resultFailure);
   });
 });
 
@@ -47,8 +57,11 @@ describe("get five days forecast OK", () => {
     const store = mockStore();
     const testCityId = 5038018;
     store.dispatch(getFiveDaysForecastRequest(testCityId));
-    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_ATTEMPT)).toEqual({type: GET_FIVE_DAYS_FORECAST_ATTEMPT});
-    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_SUCCESS)).toMatchObject({type: GET_FIVE_DAYS_FORECAST_SUCCESS,
+    const resultAttempt = {
+      type: GET_FIVE_DAYS_FORECAST_ATTEMPT
+    };
+    const resultSuccess = {
+      type: GET_FIVE_DAYS_FORECAST_SUCCESS,
       payload: {
         response: {
           city: {
@@ -56,7 +69,9 @@ describe("get five days forecast OK", () => {
           }
         }
       }
-    });
+    };
+    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_ATTEMPT)).toEqual(resultAttempt);
+    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_SUCCESS)).toMatchObject(resultSuccess);
   });
 });
 
@@ -64,12 +79,17 @@ describe("get five days forecast WRONG", () => {
   it("handles getting an error during the five days request", async () => {
     const store = mockStore();
     const wrongCityId = 1234;
-    store.dispatch(getFiveDaysForecastRequest(wrongCityId));
-    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_ATTEMPT)).toEqual({type: GET_FIVE_DAYS_FORECAST_ATTEMPT});
-    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_FAILURE)).toMatchObject({type: GET_FIVE_DAYS_FORECAST_FAILURE,
+    const resultAttempt = {
+      type: GET_FIVE_DAYS_FORECAST_ATTEMPT
+    };
+    const resultFailure = {
+      type: GET_FIVE_DAYS_FORECAST_FAILURE,
       payload: {
         error: {}
       }
-    });
+    };
+    store.dispatch(getFiveDaysForecastRequest(wrongCityId));
+    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_ATTEMPT)).toEqual(resultAttempt);
+    expect(await getAction(store, GET_FIVE_DAYS_FORECAST_FAILURE)).toMatchObject(resultFailure);
   });
 });

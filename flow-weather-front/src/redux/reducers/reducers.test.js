@@ -12,15 +12,16 @@ const {
   GET_FIVE_DAYS_FORECAST_FAILURE,
 } = types
 
-const defaultStartState = {
-  todayForecast: {},
-  fiveDaysForecast: [],
-  fetching: false,
-  error: null
-};
+const testCityId = 5038018;
 
 describe('forecast reducer', () => {
   it('should return the initial state', () => {
+    const defaultStartState = {
+      todayForecast: {},
+      fiveDaysForecast: [],
+      fetching: false,
+      error: null
+    };
     expect(reducer(undefined, {})).toEqual(defaultStartState);
   });
   // TODAY FORECAST  
@@ -28,11 +29,13 @@ describe('forecast reducer', () => {
     const attemptAcation = {
       type: GET_TODAY_FORECAST_ATTEMPT
     };
-    expect(reducer({}, attemptAcation)).toEqual({fetching: true});
+    const attemptState = {
+      fetching: true
+    };
+    expect(reducer({}, attemptAcation)).toEqual(attemptState);
   });
 
   it('should handle GET_TODAY_FORECAST_SUCCESS and set correct payload', () => {
-    const testCityId = 5038018
     const getTodayForeCastSuccessAction = {
       type: GET_TODAY_FORECAST_SUCCESS,
       payload: {
@@ -41,9 +44,13 @@ describe('forecast reducer', () => {
         }
       }
     };
-    expect(reducer({}, getTodayForeCastSuccessAction)).toMatchObject({fetching: false, todayForecast: {
-      id: testCityId
-    }});
+    const getTodayForecastSuccessState = {
+      fetching: false,
+      todayForecast: {
+        id: testCityId
+      }
+    }
+    expect(reducer({}, getTodayForeCastSuccessAction)).toMatchObject(getTodayForecastSuccessState);
   });
 
   it('should handle GET_TODAY_FORECAST_FAILURE', () => {
@@ -53,7 +60,11 @@ describe('forecast reducer', () => {
         error: 404
       }
     };
-    expect(reducer({}, failAction)).toEqual({ fetching: false, error: 404 });
+    const failState = {
+      fetching: false,
+      error: 404
+    };
+    expect(reducer({}, failAction)).toEqual(failState);
   });
 
   // FIVE DAYS FORECAST
@@ -61,11 +72,13 @@ describe('forecast reducer', () => {
     const attemptAcation = {
       type: GET_FIVE_DAYS_FORECAST_ATTEMPT
     };
-    expect(reducer({}, attemptAcation)).toEqual({fetching: true});
+    const attemptState = {
+      fetching: true
+    };
+    expect(reducer({}, attemptAcation)).toEqual(attemptState);
   });
 
   it('should handle GET_TODAY_FORECAST_SUCCESS and set correct payload', () => {
-    const testCityId = 5038018
     const getFiveDaysForeCastSuccessAction = {
       type: GET_FIVE_DAYS_FORECAST_SUCCESS,
       payload: {
@@ -74,7 +87,11 @@ describe('forecast reducer', () => {
         }
       }
     };
-    expect(reducer({}, getFiveDaysForeCastSuccessAction)).toMatchObject({fetching: false, fiveDaysForecast: []});
+    const getFiveDaysForeCastSuccessState = {
+      fetching: false,
+      fiveDaysForecast: []
+    }
+    expect(reducer({}, getFiveDaysForeCastSuccessAction)).toMatchObject(getFiveDaysForeCastSuccessState);
   });
 
   it('should handle GET_FIVE_DAYS_FORECAST_FAILURE', () => {
@@ -84,7 +101,10 @@ describe('forecast reducer', () => {
         error: 404
       }
     };
-    expect(reducer({}, failAction)).toEqual({ fetching: false, error: 404 });
+    const failState = {
+      fetching: false,
+      error: 404
+    };
+    expect(reducer({}, failAction)).toEqual(failState);
   });
-
 });
