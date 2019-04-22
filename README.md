@@ -3,7 +3,7 @@
 ## Getting Started
 In order to use the application, first run:
 
-### `cd flow-weather-front && npm install`
+### `npm install`
 
 Then: 
 
