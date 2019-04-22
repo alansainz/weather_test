@@ -1,6 +1,6 @@
-import { combineReducers } from "redux";
-import forecast from "./forecast";
+import { combineReducers } from 'redux';
+import forecast from './forecast';
 
 export default combineReducers({
-  forecast
+  forecast,
 });

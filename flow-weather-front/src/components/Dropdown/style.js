@@ -8,4 +8,4 @@ export const StyledSelect = styled.select`
   font-size: 20px;
   background-color: ${GRADIENT_TWO};
   color: ${CARD_TEXT};
-`
+`;

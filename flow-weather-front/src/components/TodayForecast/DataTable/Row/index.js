@@ -1,10 +1,6 @@
 import React from 'react';
 
-import { 
-  Title,
-  Data,
-} from './style.js'
-
+import { Title, Data } from './style.js';
 
 const Row = ({ title, value, symbol, isLast }) => (
   <React.Fragment>
@@ -13,4 +9,4 @@ const Row = ({ title, value, symbol, isLast }) => (
   </React.Fragment>
 );
 
-export default Row
+export default Row;

@@ -93,7 +93,7 @@ ShallowWrapper {
         "rules": Array [
           "
   display: flex;
-  flex-direction: row
+  flex-direction: row;
 ",
         ],
       },
@@ -170,7 +170,7 @@ ShallowWrapper {
           "rules": Array [
             "
   display: flex;
-  flex-direction: row
+  flex-direction: row;
 ",
           ],
         },
@@ -265,7 +265,7 @@ ShallowWrapper {
         "rules": Array [
           "
   display: flex;
-  flex-direction: row
+  flex-direction: row;
 ",
         ],
       },
@@ -320,7 +320,7 @@ ShallowWrapper {
           "rules": Array [
             "
   display: flex;
-  flex-direction: row
+  flex-direction: row;
 ",
           ],
         },

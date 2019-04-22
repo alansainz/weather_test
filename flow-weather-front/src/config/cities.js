@@ -1,28 +1,28 @@
 const cities = [
   {
     id: 3435910,
-    name: 'Buenos Aires'
+    name: 'Buenos Aires',
   },
   {
     id: 1609350,
-    name: 'Bangkok'
+    name: 'Bangkok',
   },
   {
     id: 2950159,
-    name: 'Berlin'
+    name: 'Berlin',
   },
   {
     id: 2643743,
-    name: 'London'
+    name: 'London',
   },
   {
     id: 3833367,
-    name: 'Ushuaia'
+    name: 'Ushuaia',
   },
   {
     id: 5038018,
-    name: 'Montevideo'
+    name: 'Montevideo',
   },
 ];
 
-export default cities
+export default cities;

@@ -1,10 +1,10 @@
-export const returnTempOrDoubleDash = (temp) => {
-  if(temp) {
-    return temp + '°'
+export const returnTempOrDoubleDash = temp => {
+  if (temp) {
+    return temp + '°';
   } else {
-    return '--'
+    return '--';
   }
-}
+};
 
 const dateDictionary = {
   0: 'Sunday',
@@ -13,15 +13,15 @@ const dateDictionary = {
   3: 'Wednesday',
   4: 'Thursday',
   5: 'Friday',
-  6: 'Saturday'
-}
+  6: 'Saturday',
+};
 
-export const returnDayFromUnix = (unix) => {
-  const dateFromUnix = new Date(unix*1000);
-  const dayNumber = dateFromUnix.getDay()
-  const dateToday = new Date()
-  const todayNumber = dateToday.getDay()
+export const returnDayFromUnix = unix => {
+  const dateFromUnix = new Date(unix * 1000);
+  const dayNumber = dateFromUnix.getDay();
+  const dateToday = new Date();
+  const todayNumber = dateToday.getDay();
 
-  if(dayNumber === todayNumber) return 'Today'
-  return dateDictionary[dayNumber]
-}
+  if (dayNumber === todayNumber) return 'Today';
+  return dateDictionary[dayNumber];
+};

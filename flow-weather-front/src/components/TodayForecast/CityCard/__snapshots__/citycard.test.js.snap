@@ -226,7 +226,7 @@ ShallowWrapper {
         "isStatic": true,
         "rules": Array [
           "
-  background: rgb(54,166,215);
+  background: rgb(54, 166, 215);
   background: linear-gradient(0deg, ",
           "rgba(54,166,215,1)",
           " 0%, ",
@@ -236,7 +236,7 @@ ShallowWrapper {
   height: 350px;
   color: ",
           "white",
-          "
+          ";
 ",
         ],
       },
@@ -458,7 +458,7 @@ ShallowWrapper {
           "isStatic": true,
           "rules": Array [
             "
-  background: rgb(54,166,215);
+  background: rgb(54, 166, 215);
   background: linear-gradient(0deg, ",
             "rgba(54,166,215,1)",
             " 0%, ",
@@ -468,7 +468,7 @@ ShallowWrapper {
   height: 350px;
   color: ",
             "white",
-            "
+            ";
 ",
           ],
         },
@@ -724,7 +724,7 @@ ShallowWrapper {
         "isStatic": true,
         "rules": Array [
           "
-  background: rgb(54,166,215);
+  background: rgb(54, 166, 215);
   background: linear-gradient(0deg, ",
           "rgba(54,166,215,1)",
           " 0%, ",
@@ -734,7 +734,7 @@ ShallowWrapper {
   height: 350px;
   color: ",
           "white",
-          "
+          ";
 ",
         ],
       },
@@ -950,7 +950,7 @@ ShallowWrapper {
           "isStatic": true,
           "rules": Array [
             "
-  background: rgb(54,166,215);
+  background: rgb(54, 166, 215);
   background: linear-gradient(0deg, ",
             "rgba(54,166,215,1)",
             " 0%, ",
@@ -960,7 +960,7 @@ ShallowWrapper {
   height: 350px;
   color: ",
             "white",
-            "
+            ";
 ",
           ],
         },

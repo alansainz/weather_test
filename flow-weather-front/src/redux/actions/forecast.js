@@ -1,62 +1,61 @@
-import api from '../../config/api.js'
-import { 
-  GET_TODAY_FORECAST_ATTEMPT, 
+import api from '../../config/api.js';
+import {
+  GET_TODAY_FORECAST_ATTEMPT,
   GET_TODAY_FORECAST_SUCCESS,
   GET_TODAY_FORECAST_FAILURE,
   GET_FIVE_DAYS_FORECAST_ATTEMPT,
   GET_FIVE_DAYS_FORECAST_SUCCESS,
-  GET_FIVE_DAYS_FORECAST_FAILURE
+  GET_FIVE_DAYS_FORECAST_FAILURE,
 } from '../constants';
 
 const getTodayForecastAttempt = () => ({
-  type: GET_TODAY_FORECAST_ATTEMPT
+  type: GET_TODAY_FORECAST_ATTEMPT,
 });
 
-const getTodayForecastSuccess = (response) => ({
+const getTodayForecastSuccess = response => ({
   type: GET_TODAY_FORECAST_SUCCESS,
   payload: {
-    response: response.data
-  }
-})
+    response: response.data,
+  },
+});
 
-const getTodayForecastFailure = (error) => ({
+const getTodayForecastFailure = error => ({
   type: GET_TODAY_FORECAST_FAILURE,
   payload: {
-    error
-  }
-})
+    error,
+  },
+});
 
-export const getTodayForecastRequest = (cityId) => (dispatch) => {
-  dispatch(getTodayForecastAttempt())
+export const getTodayForecastRequest = cityId => dispatch => {
+  dispatch(getTodayForecastAttempt());
   return api
     .get(`weather?id=${cityId}`)
     .then(response => dispatch(getTodayForecastSuccess(response)))
     .catch(error => dispatch(getTodayForecastFailure(error)));
-}
-
+};
 
 const getFiveDaysForecastAttempt = () => ({
-  type: GET_FIVE_DAYS_FORECAST_ATTEMPT
+  type: GET_FIVE_DAYS_FORECAST_ATTEMPT,
 });
 
-const getFiveDaysForecastSuccess = (response) => ({
+const getFiveDaysForecastSuccess = response => ({
   type: GET_FIVE_DAYS_FORECAST_SUCCESS,
   payload: {
-    response: response.data
-  }
-})
+    response: response.data,
+  },
+});
 
-const getFiveDaysForecastFailure = (error) => ({
+const getFiveDaysForecastFailure = error => ({
   type: GET_FIVE_DAYS_FORECAST_FAILURE,
   payload: {
-    error
-  }
-})
+    error,
+  },
+});
 
-export const getFiveDaysForecastRequest = (cityId) => (dispatch) => {
-  dispatch(getFiveDaysForecastAttempt())
+export const getFiveDaysForecastRequest = cityId => dispatch => {
+  dispatch(getFiveDaysForecastAttempt());
   return api
     .get(`forecast/daily?id=${cityId}&cnt=5`)
     .then(response => dispatch(getFiveDaysForecastSuccess(response)))
     .catch(error => dispatch(getFiveDaysForecastFailure(error)));
-}
+};

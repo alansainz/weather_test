@@ -6,8 +6,8 @@ import rootReducer from '../redux/reducers';
 const loggerMiddleware = createLogger();
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
-  rootReducer, 
-  composeEnhancers(applyMiddleware(thunkMiddleware, loggerMiddleware ))
-  );
+  rootReducer,
+  composeEnhancers(applyMiddleware(thunkMiddleware, loggerMiddleware))
+);
 
 export default store;

@@ -7,9 +7,9 @@ const units = 'metric';
 const api = axios.create({
   baseURL,
   params: {
-     APPID,
-     units
-   }
+    APPID,
+    units,
+  },
 });
 
-export default api
+export default api;

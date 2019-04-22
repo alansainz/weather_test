@@ -1,9 +1,9 @@
-import configureMockStore from "redux-mock-store";
-import thunk from "redux-thunk";
+import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
 
 const findAction = (store, type) => {
   return store.getActions().find(action => action.type === type);
-}
+};
 
 export const mockStore = configureMockStore([thunk]);
 
@@ -17,4 +17,4 @@ export const getAction = (store, type) => {
       if (action) resolve(action);
     });
   });
-}
+};
